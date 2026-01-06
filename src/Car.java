@@ -55,6 +55,10 @@ public class Car {
         return "Engine started for "+this.brand + " car";
     }
 
+    public String stopCarEngine(){
+        return "Engine stopped for "+this.brand + " car";
+    }
+
     public static void main(String[] args) {
         Car car1 = new Car("Toyota", "Corolla", "Petrol", "Red", 2020, 15);
         // Car car2 = new Car("Honda", "Civic", "Diesel", "Blue", 2019, 18);
