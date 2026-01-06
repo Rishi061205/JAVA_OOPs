@@ -51,6 +51,10 @@ public class Car {
         }
     }
 
+    public String startEngine(){
+        return "Engine started for "+this.brand + " car";
+    }
+
     public static void main(String[] args) {
         Car car1 = new Car("Toyota", "Corolla", "Petrol", "Red", 2020, 15);
         // Car car2 = new Car("Honda", "Civic", "Diesel", "Blue", 2019, 18);
@@ -64,6 +68,6 @@ public class Car {
         // int a = 15;
         // System.out.println(a);
         // System.out.println(car1.toString());
-        System.out.println(car1);
+        System.out.println(car1.startEngine());
     }
 }
